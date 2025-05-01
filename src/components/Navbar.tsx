@@ -1,7 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
 import { cn } from '@/lib/utils';
-import { Button } from '@/components/ui/button';
 import { Menu, X } from 'lucide-react';
 
 const navLinks = [
@@ -88,21 +87,12 @@ const Navbar = () => {
               {link.title}
             </a>
           ))}
-          <Button 
-            className="ml-4 bg-brand-primary hover:bg-brand-primary/90"
-            onClick={() => {
-              document.getElementById('contact-modal')?.classList.remove('hidden');
-            }}
-          >
-            Contact Me
-          </Button>
         </nav>
         
         {/* Mobile Menu Toggle */}
         <div className="md:hidden">
-          <Button 
-            variant="ghost" 
-            size="icon" 
+          <button 
+            className="p-2 text-gray-600"
             onClick={toggleMobileMenu}
             aria-label={mobileMenuOpen ? "Close menu" : "Open menu"}
           >
@@ -111,7 +101,7 @@ const Navbar = () => {
             ) : (
               <Menu className="h-6 w-6" />
             )}
-          </Button>
+          </button>
         </div>
       </div>
       
@@ -131,15 +121,6 @@ const Navbar = () => {
               {link.title}
             </a>
           ))}
-          <Button 
-            className="mt-6 bg-brand-primary hover:bg-brand-primary/90"
-            onClick={() => {
-              closeMobileMenu();
-              document.getElementById('contact-modal')?.classList.remove('hidden');
-            }}
-          >
-            Contact Me
-          </Button>
         </div>
       </div>
     </header>

@@ -3,6 +3,7 @@ import React from 'react';
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 import { cn } from '@/lib/utils';
 import { profileData } from '@/data/portfolioData';
+import { Mail, Phone, MapPin } from 'lucide-react';
 
 const Contact = () => {
   const { elementRef, isVisible } = useScrollAnimation();
@@ -21,14 +22,14 @@ const Contact = () => {
           
           <div className="max-w-3xl mx-auto">
             <p className="text-lg text-gray-700 mb-10 text-center">
-              Feel free to reach out if you're looking for a dedicated IT/Business Analyst intern, 
+              Feel free to reach out if you're looking for a dedicated IT/Business Analyst, 
               have a question, or just want to connect.
             </p>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="bg-gray-50 p-6 rounded-lg shadow-sm text-center hover:shadow-md transition-shadow duration-300">
                 <div className="w-16 h-16 rounded-full bg-brand-primary/10 flex items-center justify-center mx-auto mb-4">
-                  <span className="text-brand-primary text-2xl">📧</span>
+                  <Mail className="h-6 w-6 text-brand-primary" />
                 </div>
                 <h3 className="text-lg font-medium mb-2">Email</h3>
                 <a href={`mailto:${profileData.email}`} className="text-gray-600 hover:text-brand-primary">
@@ -38,7 +39,7 @@ const Contact = () => {
               
               <div className="bg-gray-50 p-6 rounded-lg shadow-sm text-center hover:shadow-md transition-shadow duration-300">
                 <div className="w-16 h-16 rounded-full bg-brand-primary/10 flex items-center justify-center mx-auto mb-4">
-                  <span className="text-brand-primary text-2xl">📱</span>
+                  <Phone className="h-6 w-6 text-brand-primary" />
                 </div>
                 <h3 className="text-lg font-medium mb-2">Phone</h3>
                 <a href={`tel:${profileData.phone}`} className="text-gray-600 hover:text-brand-primary">
@@ -48,7 +49,7 @@ const Contact = () => {
               
               <div className="bg-gray-50 p-6 rounded-lg shadow-sm text-center hover:shadow-md transition-shadow duration-300">
                 <div className="w-16 h-16 rounded-full bg-brand-primary/10 flex items-center justify-center mx-auto mb-4">
-                  <span className="text-brand-primary text-2xl">📍</span>
+                  <MapPin className="h-6 w-6 text-brand-primary" />
                 </div>
                 <h3 className="text-lg font-medium mb-2">Location</h3>
                 <p className="text-gray-600">{profileData.location}</p>

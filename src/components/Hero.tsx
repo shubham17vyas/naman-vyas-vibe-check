@@ -62,14 +62,12 @@ const Hero = () => {
             {profileData.title}
           </p>
           
-          <Button 
-            className="bg-brand-primary hover:bg-brand-primary/90 text-white px-8 py-6 text-lg rounded-md shadow-md animate-float"
-            onClick={() => {
-              document.getElementById('contact-modal')?.classList.remove('hidden');
-            }}
+          <a 
+            href="#contact"
+            className="bg-brand-primary hover:bg-brand-primary/90 text-white px-8 py-6 text-lg rounded-md shadow-md animate-float inline-block"
           >
-            Get in Touch
-          </Button>
+            Contact Info
+          </a>
         </div>
         
         {/* Scroll indicator */}
