@@ -26,7 +26,7 @@ const Skills = () => {
           'scroll-animation',
           isVisible && 'visible'
         )}>
-          <h2 className="section-title">Core Competencies</h2>
+          <h2 className="section-title">Skills & Tools</h2>
           
           {/* Category filters */}
           <div className="flex flex-wrap gap-2 mb-10">

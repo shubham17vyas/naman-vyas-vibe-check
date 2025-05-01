@@ -68,31 +68,44 @@ const profileData = {
 };
 
 const skills: SkillType[] = [
-  // Technical Skills
-  { name: "BPMN", category: "Technical", proficiency: 90 },
-  { name: "MS Office", category: "Technical", proficiency: 90 },
-  { name: "Bizagi Modeler", category: "Technical", proficiency: 85 },
-  { name: "Star UML", category: "Technical", proficiency: 80 },
-  { name: "Figma", category: "Technical", proficiency: 75 },
-  { name: "MS Visio", category: "Technical", proficiency: 75 },
-  // Analysis Skills
-  { name: "Requirements Gathering", category: "Analysis", proficiency: 90 },
-  { name: "Documentation", category: "Analysis", proficiency: 85 },
-  { name: "Process Optimization", category: "Analysis", proficiency: 80 },
-  { name: "Stakeholder Management", category: "Analysis", proficiency: 75 },
-  // Tools
-  { name: "Balsamiq", category: "Tools", proficiency: 80 },
-  { name: "EdrawMax", category: "Tools", proficiency: 75 },
-  { name: "Axure RP", category: "Tools", proficiency: 70 },
+  // BA Tools
+  { name: "Bizagi Modeler", category: "BA Tools", proficiency: 85 },
+  { name: "Star UML", category: "BA Tools", proficiency: 80 },
+  { name: "Balsamiq Mockups", category: "BA Tools", proficiency: 80 },
+  { name: "EdrawMax", category: "BA Tools", proficiency: 75 },
+  { name: "MS Office", category: "BA Tools", proficiency: 90 },
+  { name: "Figma", category: "BA Tools", proficiency: 75 },
+  { name: "MS Visio", category: "BA Tools", proficiency: 75 },
+  { name: "Axure RP", category: "BA Tools", proficiency: 70 },
+  
   // Methodologies
   { name: "Agile (Scrum)", category: "Methodology", proficiency: 85 },
-  { name: "Waterfall", category: "Methodology", proficiency: 80 },
-  { name: "Iterative Waterfall", category: "Methodology", proficiency: 75 },
+  { name: "Iterative Waterfall", category: "Methodology", proficiency: 80 },
+  { name: "Waterfall", category: "Methodology", proficiency: 75 },
+  
+  // Documentation Techniques
+  { name: "BRD", category: "Documentation", proficiency: 90 },
+  { name: "FRD", category: "Documentation", proficiency: 85 },
+  { name: "Use Case Specifications", category: "Documentation", proficiency: 85 },
+  { name: "User Stories", category: "Documentation", proficiency: 85 },
+  
+  // Elicitation Techniques
+  { name: "Interviews", category: "Elicitation", proficiency: 90 },
+  { name: "Requirement Workshops", category: "Elicitation", proficiency: 85 },
+  { name: "Focus Groups", category: "Elicitation", proficiency: 80 },
+  { name: "Observation", category: "Elicitation", proficiency: 85 },
+  { name: "Surveys", category: "Elicitation", proficiency: 80 },
+  
+  // Requirements Modeling
+  { name: "Use Case Diagrams", category: "Modeling", proficiency: 85 },
+  { name: "UI Mock-ups", category: "Modeling", proficiency: 80 },
+  
   // Soft Skills
+  { name: "Stakeholder Management", category: "Soft Skills", proficiency: 85 },
   { name: "Communication", category: "Soft Skills", proficiency: 90 },
-  { name: "Teamwork", category: "Soft Skills", proficiency: 85 },
-  { name: "Problem Solving", category: "Soft Skills", proficiency: 90 },
-  { name: "Adaptability", category: "Soft Skills", proficiency: 85 }
+  { name: "Presentation Skills", category: "Soft Skills", proficiency: 85 },
+  { name: "Negotiation", category: "Soft Skills", proficiency: 80 },
+  { name: "Conflict Resolution", category: "Soft Skills", proficiency: 80 },
 ];
 
 const projects: ProjectType[] = [
