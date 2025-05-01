@@ -1,4 +1,3 @@
-
 // Remove next/image import and define our own image type
 
 export interface SkillType {
@@ -44,8 +43,8 @@ export interface CertificationType {
 const profileData = {
   name: "Naman Vyas",
   title: "IT / Business Analyst Intern",
-  email: "naman.vyas@example.com",
-  phone: "+1 (234) 567-8901",
+  email: "namanvyas14@gmail.com",
+  phone: "+91 7898941713",
   location: "Chicago, IL",
   bio: "Business Analytics graduate with expertise in process modeling and UX collaboration. Passionate about transforming complex data into actionable business insights.",
   taglines: [
@@ -56,7 +55,7 @@ const profileData = {
     "Problem Solver"
   ],
   socialLinks: {
-    linkedin: "https://linkedin.com/in/namanvyas",
+    linkedin: "https://www.linkedin.com/in/naman-vyas-898232183/",
     github: "https://github.com/namanvyas",
     twitter: "https://twitter.com/namanvyas",
   },
