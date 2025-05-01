@@ -1,3 +1,4 @@
+
 // Remove next/image import and define our own image type
 
 export interface SkillType {
@@ -45,7 +46,7 @@ const profileData = {
   title: "IT / Business Analyst Intern",
   email: "namanvyas14@gmail.com",
   phone: "+91 7898941713",
-  location: "Chicago, IL",
+  location: "Bhopal, MP, India",
   bio: "Business Analytics graduate with expertise in process modeling and UX collaboration. Passionate about transforming complex data into actionable business insights.",
   taglines: [
     "Business Analytics Grad",
