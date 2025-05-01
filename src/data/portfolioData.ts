@@ -1,5 +1,5 @@
 
-import { StaticImageData } from 'next/image';
+// Remove next/image import and define our own image type
 
 export interface SkillType {
   name: string;
@@ -11,7 +11,7 @@ export interface ProjectType {
   id: string;
   title: string;
   description: string;
-  image: string;
+  image: string; // Changed from StaticImageData to string
   skills: string[];
   details: {
     challenge: string;
