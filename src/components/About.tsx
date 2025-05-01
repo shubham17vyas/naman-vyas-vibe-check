@@ -22,7 +22,18 @@ const About = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
             <div>
               <p className="text-lg mb-6 text-gray-700 leading-relaxed">
-                {profileData.bio}
+                Driven PGDM graduate and former banking professional transitioning into IT roles—Business Analyst, SEO Specialist, or Digital Marketing Analyst. I combine data-driven problem solving with hands-on experience in customer acquisition and digital campaigns. Skilled at:
+              </p>
+              
+              <ul className="list-disc pl-6 mb-6 space-y-2 text-gray-700">
+                <li>Gathering and documenting requirements (BRD, user stories)</li>
+                <li>Analyzing data in Excel (PivotTables, VLOOKUP) to surface insights</li>
+                <li>Optimizing websites for search (on-page SEO, keyword research)</li>
+                <li>Communicating with stakeholders to translate business needs into technical solutions</li>
+              </ul>
+              
+              <p className="text-lg mb-6 text-gray-700 leading-relaxed">
+                Eager to leverage my analytical mindset, strong communication, and sales background to help teams build more efficient processes and drive measurable results.
               </p>
               
               <div className="space-y-4">
